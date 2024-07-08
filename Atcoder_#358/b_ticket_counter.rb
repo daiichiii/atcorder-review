@@ -14,4 +14,3 @@ n.times do |i|
   end
   puts count_time
 end
-
