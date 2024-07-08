@@ -8,7 +8,7 @@ a = gets.split.map(&:to_i)
 positions = Hash.new { |hash, key| hash[key] = [] }
 
 # 配列aを走査し、各色の位置をハッシュに格納
-a.each_with_index do |color, index|
+a.each.with_index do |color, index|
   positions[color] << index
 end
 
