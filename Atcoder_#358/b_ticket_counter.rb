@@ -6,6 +6,7 @@ count_time = 0
 
 # 各人がチケットを購入し終わる時間を計算
 n.times do |i|
+  # 並んでいる人がいないとき
   if count_time <= t[i]
     count_time = t[i] + a
   else
@@ -13,3 +14,4 @@ n.times do |i|
   end
   puts count_time
 end
+
