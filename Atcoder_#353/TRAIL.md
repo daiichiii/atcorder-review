@@ -10,6 +10,7 @@ https://atcoder.jp/contests/abc353/tasks/abc353_b
 # javascript 
 ## A問題
 https://atcoder.jp/contests/abc353/tasks/abc353_a
+![alt text](image-2.png)
 ### メモ
 readlineモジュールは、Node.jsの標準ライブラリの一部です。  
 このモジュールを使うと、標準入力（stdin）やファイルから一行ずつデータを読み取ることができます。  
@@ -43,4 +44,6 @@ parseInt関数
 1 番目の引数に指定した文字列を整数に変換します。引数が文字列でない場合は文字列に変換したあとで整数に変換されます。
 省略可能な 2 番目の引数で整数の基数を指定することができます( 10 進数の場合は 10 です)。 2 から 36 までの数値で指定します。
 ```
-
+## B問題
+https://atcoder.jp/contests/abc353/tasks/abc353_b
+![alt text](image-3.png)
