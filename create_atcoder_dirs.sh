@@ -13,9 +13,10 @@ NUMBER=$1
 BASE_DIR="Atcoder_#${NUMBER}"
 mkdir -p "$BASE_DIR"
 
-# javascriptとrubyのディレクトリを作成
+# javascript、ruby、Cのディレクトリを作成
 mkdir -p "${BASE_DIR}/javascript"
 mkdir -p "${BASE_DIR}/ruby"
+mkdir -p "${BASE_DIR}/C"
 
 # TRAIL.mdファイルを作成して内容を追加
 TRAIL_FILE="${BASE_DIR}/TRAIL.md"
