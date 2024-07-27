@@ -20,7 +20,7 @@ function processInput(input) {
   }
 
   function duringStr(s) {
-    return !s.slice(1, -1).includes("<") && !s.slice(1, -1).includes(">");
+    return !s.slice(1, -1).includes('<') && !s.slice(1, -1).includes('>');
   }
 
   function lastStr(s) {
