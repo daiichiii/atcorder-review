@@ -12,11 +12,11 @@ def exists_w_b_substring?(w, b)
     w_count = substring.count('w')
     b_count = substring.count('b')
     if w_count == w && b_count == b
-      return "Yes"
+      return 'Yes'
     end
   end
 
-  "No"
+  'No'
 end
 
 # 入力を受け取る
