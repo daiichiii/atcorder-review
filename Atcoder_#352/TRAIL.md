@@ -3,7 +3,6 @@ https://atcoder.jp/contests/abc352/tasks/abc352_a
 
 ## ruby
 ![alt text](image.png)
-
 ## javascript 
 ![alt text](image-1.png)
 
