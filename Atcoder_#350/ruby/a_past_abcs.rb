@@ -8,7 +8,7 @@ number = number_str.to_i
 
 # 範囲チェック
 if (1..349).include?(number) && number != 316
-  puts "Yes"
+  puts 'Yes'
 else
-  puts "No"
+  puts 'No'
 end
