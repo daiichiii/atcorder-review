@@ -16,7 +16,7 @@ function processInput(input) {
   const s = input[0];
 
   function firstStr(s) {
-    return s[0] === "<";
+    return s[0] === '<';
   }
 
   function duringStr(s) {
@@ -24,14 +24,14 @@ function processInput(input) {
   }
 
   function lastStr(s) {
-    return s[s.length - 1] === ">";
+    return s[s.length - 1] === '>';
   }
 
   function checkString(s) {
     if (firstStr(s) && duringStr(s) && lastStr(s)) {
-      console.log("Yes");
+      console.log('Yes');
     } else {
-      console.log("No");
+      console.log('No');
     }
   }
 
