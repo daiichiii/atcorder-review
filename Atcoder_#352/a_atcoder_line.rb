@@ -11,7 +11,7 @@ getting_off_station = stations[x-1..y-1]
 
 # zが含まれているかを確認
 if getting_off_station.include?(z)
-  puts "Yes"
+  puts 'Yes'
 else
-  puts "No"
+  puts 'No'
 end
