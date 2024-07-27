@@ -19,4 +19,4 @@ end
 s = gets.chomp
 
 # 判定結果を出力する
-puts good_string?(s) ? "Yes" : "No"
+puts good_string?(s) ? 'Yes' : 'No'

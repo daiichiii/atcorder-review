@@ -18,7 +18,7 @@ rl.on('line', (line) => {
 
 function processInput(input) {
   const s = input[0];
-  console.log(goodString(s) ? "Yes" : "No");
+  console.log(goodString(s) ? 'Yes' : 'No');
 }
 
 function goodString(s) {
