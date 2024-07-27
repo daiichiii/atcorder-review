@@ -14,9 +14,9 @@ rl.question('', (s) => {
 
   // 範囲チェック
   if (number >= 1 && number <= 349 && number !== 316) {
-    console.log("Yes");
+    console.log('Yes');
   } else {
-    console.log("No");
+    console.log('No');
   }
 
   rl.close();
