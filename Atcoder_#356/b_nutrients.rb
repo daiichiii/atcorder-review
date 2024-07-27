@@ -22,4 +22,4 @@ m.times do |i|
   end
 end
 
-puts achieved ? "Yes" : "No"
+puts achieved ? 'Yes' : 'No'
