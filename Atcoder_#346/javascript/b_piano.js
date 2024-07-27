@@ -26,9 +26,9 @@ function existsWbSubstring(w, b) {
     const wCount = (substring.match(/w/g) || []).length;
     const bCount = (substring.match(/b/g) || []).length;
     if (wCount === w && bCount === b) {
-      return "Yes";
+      return 'Yes';
     }
   }
 
-  return "No";
+  return 'No';
 }
