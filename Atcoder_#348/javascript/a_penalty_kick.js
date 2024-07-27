@@ -11,9 +11,9 @@ rl.question('', (n) => {
 
   for (let i = 0; i < number; i++) {
     if ((i + 1) % 3 === 0) {
-      pk_result.push("x");
+      pk_result.push('x');
     } else {
-      pk_result.push("o");
+      pk_result.push('o');
     }
   }
 
