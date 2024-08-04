@@ -16,4 +16,3 @@ function main(input) {
   const fs = require('fs');
   const input = fs.readFileSync('/dev/stdin', 'utf8');
   main(input);
-  
