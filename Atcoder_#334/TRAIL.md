@@ -10,4 +10,4 @@ https://atcoder.jp/contests/abc334/tasks/abc334_b
 ## ruby
 ![alt text](image-2.png)
 ## javascript 
-
+![alt text](image-3.png)
