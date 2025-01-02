@@ -10,6 +10,9 @@ end
 movement_instructions = gets.strip
 
 # 通行可能かどうかを判定する関数
+#
+# @param [Array] grid 全体のマス
+# @param [Integer] x,y 現在の座標
 def passable?(grid, x, y)
   grid[x - 1][y - 1] == '.' || grid[x - 1][y - 1] == '@'
 end
